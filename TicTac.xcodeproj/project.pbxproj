@@ -15,6 +15,11 @@
 		5DDC77BF25AE568D00EFDBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC77BD25AE568D00EFDBA6 /* LaunchScreen.storyboard */; };
 		5DDC77CA25AE568D00EFDBA6 /* TicTacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC77C925AE568D00EFDBA6 /* TicTacTests.swift */; };
 		5DDC77D525AE568E00EFDBA6 /* TicTacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC77D425AE568E00EFDBA6 /* TicTacUITests.swift */; };
+		5DDC77E825AE577500EFDBA6 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC77E525AE577400EFDBA6 /* o.png */; };
+		5DDC77E925AE577500EFDBA6 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC77E625AE577400EFDBA6 /* x.png */; };
+		5DDC77EA25AE577500EFDBA6 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC77E725AE577400EFDBA6 /* bg.png */; };
+		5DDC77EF25AFBF5B00EFDBA6 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC77EE25AFBF5B00EFDBA6 /* line.png */; };
+		5DDC77F425B0395500EFDBA6 /* gridBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC77F325B0395500EFDBA6 /* gridBG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5DDC77D025AE568E00EFDBA6 /* TicTacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDC77D425AE568E00EFDBA6 /* TicTacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacUITests.swift; sourceTree = "<group>"; };
 		5DDC77D625AE568E00EFDBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDC77E525AE577400EFDBA6 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../o.png; sourceTree = "<group>"; };
+		5DDC77E625AE577400EFDBA6 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../x.png; sourceTree = "<group>"; };
+		5DDC77E725AE577400EFDBA6 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../bg.png; sourceTree = "<group>"; };
+		5DDC77EE25AFBF5B00EFDBA6 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = ../../line.png; sourceTree = "<group>"; };
+		5DDC77F325B0395500EFDBA6 /* gridBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gridBG.png; path = ../../gridBG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				5DDC77BB25AE568D00EFDBA6 /* Assets.xcassets */,
 				5DDC77BD25AE568D00EFDBA6 /* LaunchScreen.storyboard */,
 				5DDC77C025AE568D00EFDBA6 /* Info.plist */,
+				5DDC77F325B0395500EFDBA6 /* gridBG.png */,
+				5DDC77E725AE577400EFDBA6 /* bg.png */,
+				5DDC77EE25AFBF5B00EFDBA6 /* line.png */,
+				5DDC77E525AE577400EFDBA6 /* o.png */,
+				5DDC77E625AE577400EFDBA6 /* x.png */,
 			);
 			path = TicTac;
 			sourceTree = "<group>";
@@ -232,8 +247,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDC77BF25AE568D00EFDBA6 /* LaunchScreen.storyboard in Resources */,
+				5DDC77EF25AFBF5B00EFDBA6 /* line.png in Resources */,
 				5DDC77BC25AE568D00EFDBA6 /* Assets.xcassets in Resources */,
+				5DDC77EA25AE577500EFDBA6 /* bg.png in Resources */,
+				5DDC77F425B0395500EFDBA6 /* gridBG.png in Resources */,
+				5DDC77E925AE577500EFDBA6 /* x.png in Resources */,
 				5DDC77BA25AE568800EFDBA6 /* Main.storyboard in Resources */,
+				5DDC77E825AE577500EFDBA6 /* o.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
