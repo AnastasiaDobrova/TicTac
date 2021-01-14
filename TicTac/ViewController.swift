@@ -20,8 +20,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreFirst: UILabel!
     @IBOutlet weak var scoreSec: UILabel!
     
-    
-    
     var game = true
     var active = 1 // cross
     var position = [0,0,0,0,0,0,0,0,0]
@@ -42,8 +40,6 @@ class ViewController: UIViewController {
         playBtn.layer.shadowOpacity = 0.3
         playBtn.layer.shadowColor = UIColor.black.cgColor
         playBtn.layer.shadowRadius = 5
-        
-        
     }
     
     
